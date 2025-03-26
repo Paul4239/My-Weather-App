@@ -6,6 +6,8 @@ interface WeatherDisplayProps {
 }
 
 const WeatherDisplay: React.FC<WeatherDisplayProps> = ({ weatherData }) => {
+  console.log(weatherData);
+
   return (
     <div>
       <h1>Weather Data</h1>
