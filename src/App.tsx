@@ -5,9 +5,11 @@ const App: React.FC = () => {
   const [weatherData, setWeatherData] = useState<any>(null);
   const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
 
+  // warning: this will display your api key in the network tab in the browser.
+
   useEffect(() => {
     fetch(
-      `https://api.weatherstack.com/current?access_key=${apiKey}&query=London`
+      `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/London,UK/next1days?key=${apiKey}`
     )
       .then((response) => response.json())
       .then((data) => setWeatherData(data))

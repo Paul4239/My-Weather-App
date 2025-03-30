@@ -9,12 +9,12 @@ To get started with this project, follow these steps:
 1. **Clone the repository:**
 
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/Paul4239/My-Weather-App
    ```
 
-2. **Get your API key for free:**
+2. **Get your free API key:**
 
-   Go to [this website](https://weatherstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers), make an account and get your API key
+   Go to [this website](https://www.visualcrossing.com/), make an account and get your API key
 
 3. **Create .env file:**
 
