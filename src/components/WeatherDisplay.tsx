@@ -15,7 +15,7 @@ const WeatherDisplay: React.FC<WeatherDisplayProps> = ({ weatherData }) => {
         <div>
           <h2>Location</h2>
           {/* test to see if the API works */}
-          <p>Name: {weatherData.days[0].conditions}</p>
+          <p>{weatherData.days[0].conditions}</p>
         </div>
       ) : (
         <p>Weather data not available</p>
